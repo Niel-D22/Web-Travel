@@ -10,8 +10,6 @@ import PlaceRoute from './assets/pages/PlaceRoute'
 import NoPage from './assets/pages/NoPage'
 
 function App() {
-
-
   return (
     <>
      <BrowserRouter>

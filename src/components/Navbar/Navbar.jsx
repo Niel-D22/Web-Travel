@@ -43,7 +43,7 @@ const toggleMenu =()=>{
           </div>
         </div>
 
-        <div className="w-full mx-auto px-4 sm:px-8 xl:px-20 2xl:px-24 py-[2px] h-20 sm:py-0 lg:py-0">
+        <div className="w-full mx-auto px-4 sm:px-8 xl:px-20 2xl:px-24 py-[2px] h-25 sm:py-0 lg:py-0">
           <div className="flex justify-between items-center">
             
             {/* bagian logo   */}
@@ -143,7 +143,7 @@ const toggleMenu =()=>{
            </div>
           </div>
         </div>
-    <ResponsiveMenu setShowMenu={setShowMenu} showMenu />
+    <ResponsiveMenu setShowMenu={setShowMenu} showMenu={showMenu} />
 
       </div>
     </>
