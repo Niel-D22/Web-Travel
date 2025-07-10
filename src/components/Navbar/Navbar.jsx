@@ -31,7 +31,7 @@ const toggleMenu =()=>{
 
     <>
       <div
-        className=" fixed top-0 right-0 w-full
+        className="  z-[99999] fixed top-0 right-0 w-full
  bg-white text-black shadow-[0_4px_4px_rgba(0,0,0,0.1)]"
       >
         <div className="bg-gradient-to-r from-[#0287a8] to-[#00c3c7] text-white ">
