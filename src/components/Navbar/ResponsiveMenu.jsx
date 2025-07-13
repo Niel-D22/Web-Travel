@@ -33,7 +33,7 @@ const ResponsiveMenu = ({ showMenu, setShowMenu }) => {
         {/* bagian atas */}
         <div>
           <div className="flex items-center justify-start gap-4">
-            <FaUserCircle size={50} className="text-gray-500" />
+            <FaUserCircle size={50} className="text-[#0287a8]" />
             <div className="text-gray-500">
               <h1>Hello User</h1>
               <h1 className="text-sm text-slate-500">Premium user</h1>

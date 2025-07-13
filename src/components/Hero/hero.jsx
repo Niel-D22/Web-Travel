@@ -3,7 +3,7 @@ const Hero = () => {
   const [PriceValue, setPriceValue] = React.useState(40);
 
   return (
-    <div className="bg-black/20 h-full ">
+    <div className="bg-black/20 h-[700px] ">
       <div
         className="h-full flex justify-center items-center
         p-4  bg-[#0287a8]/10"
@@ -24,8 +24,8 @@ const Hero = () => {
             </h1>
             {/* bagian form */}
             <div data-aos="fade-up" data-aos-delay="600"
-              className="bg-white border h-35 rounded-[8px]
-           mt-7 text-gray-600 p-4 relative "
+              className="bg-white border h-[300px] sm:h-[140px]  md:h-[140px] rounded-[8px]
+           mt-7  text-gray-600 p-4 relative "
             >
               <div className="grid grid-cols-1 sm:grid-cols-3 py-3 gap-2">
                 <div>
