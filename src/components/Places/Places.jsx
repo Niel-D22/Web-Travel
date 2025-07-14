@@ -97,10 +97,10 @@ delay:700,
 const Places = () => {
   return (
    <>
-    <div className='bg-gray-50 min-h-screen  w-full rounded-2xl '>
-        <div className='w-full mx-auto px-4  sm:px-8 xl:px-20 2xl:px-24
+    <div className='bg-white min-h-screen mt-3  w-full rounded-2xl '>
+        <div className='w-full mx-auto px-4  space-y-4 sm:px-8 xl:px-20 2xl:px-24
          py-[2px]  sm:py-0 lg:py-0   '>
-            <h1 className='my-8 border-l-8 border-[#0287a8]/50
+            <h1 data-aos="fade-up" className=' border-l-8 border-[#0287a8]/50 my-15
             py-2 pl-2 text-3xl font-bold'>
                 Best Places to visit</h1>
            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3

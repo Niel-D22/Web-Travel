@@ -4,14 +4,17 @@ const BannerImg = ({img}) => {
 
     const bgImg ={
         backgroundImage: `url(${img})`,
-        backgroundSize: "cover",
+         backgroundRepeat: "no-repeat",
+        backgroundSize: "contain",
         backgroundPosition: "center",
-        height: "400px",
+        
     }
 
   return (
-    <div data-aos="zoom in" className='h-[400px]  w-full ' 
+    <div className='h-[500px]  sm:h-[400px]  flex justify-center 2xl:mt-50  2xl:mb-50 items-center '>
+    <div data-aos="zoom in" className='w-full max-w-none bg-cover bg-center aspect-[16/9] '  
     style={bgImg}></div>
+    </div>
   )
 }
 

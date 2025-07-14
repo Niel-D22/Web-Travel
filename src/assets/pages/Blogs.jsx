@@ -1,8 +1,11 @@
 import React from 'react'
+import BlogsComp from '../../components/BlogsComp/BlogsComp';
 
 const Blog = () => {
   return (
-    <div>blog</div>
+    <div  className='min-h-[500px] max-h-[900px] '>
+      <BlogsComp/>
+    </div>
   )
 }
 

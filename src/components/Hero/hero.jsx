@@ -3,13 +3,13 @@ const Hero = () => {
   const [PriceValue, setPriceValue] = React.useState(40);
 
   return (
-    <div className="bg-black/20 h-[700px] ">
+    <div className="bg-black/20 min-h-screen  ">
       <div
-        className="h-full flex justify-center items-center
+        className="h-full flex justify-center items-center min-h-screen
         p-4  bg-[#0287a8]/10"
       >
         <div
-          className="w-full mx-auto px-4 sm:px-8 xl:px-20 2xl:px-24 py-[2px] h-57 sm:py-0 lg:py-0
+          className="w-full mx-auto  px-4 sm:px-8 xl:px-20 2xl:px-24 py-[2px] h-57 sm:py-0 lg:py-0
             grid grid-cols-1 gap-4  "
         >
           {/* bagian text content */}
@@ -27,7 +27,7 @@ const Hero = () => {
               className="bg-white border h-[300px] sm:h-[140px]  md:h-[140px] rounded-[8px]
            mt-7  text-gray-600 p-4 relative "
             >
-              <div className="grid grid-cols-1 sm:grid-cols-3 py-3 gap-2">
+              <div className="grid grid-cols-1 sm:grid-cols-3 py-3 gap-2   ">
                 <div>
                   <label className="opacity-70" htmlFor="destination">
                     Search Destination
