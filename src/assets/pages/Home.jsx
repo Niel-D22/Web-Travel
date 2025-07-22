@@ -6,7 +6,7 @@ import BannerImg from "../../components/bannerImg/BannerImg";
 import Posterimg from "../.././assets/banner.png";
 import Blogs from "../pages/Blogs"
 import Banner2 from "../../components/banner2/banner2"
-
+import BannerDunia from "../../components/bannerImg/bannerDunia"
 const Home = () => {
   return (
     <>
@@ -27,6 +27,7 @@ const Home = () => {
         <BannerImg img={Posterimg} />
         <Blogs/>
         <Banner2/>
+           <BannerDunia/>
       </div>
     </>
   );
