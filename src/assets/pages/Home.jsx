@@ -8,6 +8,7 @@ import Blogs from "../pages/Blogs"
 import Banner2 from "../../components/banner2/banner2"
 import BannerDunia from "../../components/bannerImg/bannerDunia"
 import Testimoni from "../../components/Testimoni/Testimoni"
+import Footer from "../../components/Footer/Footer"
 const Home = () => {
   return (
     <>
@@ -30,6 +31,7 @@ const Home = () => {
         <Banner2/>
            <BannerDunia/>
            <Testimoni/>
+           <Footer/>
       </div>
     </>
   );
