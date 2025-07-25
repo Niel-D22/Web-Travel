@@ -10,6 +10,7 @@ import PlaceRoute from './assets/pages/PlaceRoute'
 import NoPage from './assets/pages/NoPage'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import Scrol from "./assets/pages/scrol"
 
 function App() {
    useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
      <BrowserRouter>
+     <Scrol/>
      <Routes>
      <Route path='/' element={<Layout />}>
      <Route  index element={<Home />}/>

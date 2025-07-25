@@ -11,7 +11,7 @@ const BannerImg = ({img}) => {
     }
 
   return (
-    <div className='h-[500px]  lg:h-[400px]   xl:h-[400px] sm:h-[400px]  flex justify-center 2xl:mt-50  2xl:mb-50 items-center '>
+    <div className='2xl:h-[500px]  lg:h-[400px]   xl:h-[400px] sm:h-[300px] xs:h-[100px]  flex justify-center 2xl:mt-30  2xl:mb-10 items-center '>
     <div data-aos="zoom in" className='w-full max-w-none bg-cover bg-center aspect-[16/9] '  
     style={bgImg}></div>
     </div>

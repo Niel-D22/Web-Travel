@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const BlogsCard = ({id, img, titel, description,author,date}) => {
+const BlogsCard = ({ img, titel, description,author,date}) => {
   return (
     <Link to={`/blog/${titel}`}
     onClick={()=>{

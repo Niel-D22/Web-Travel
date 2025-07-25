@@ -86,7 +86,7 @@ const toggleMenu =()=>{
                 <li className="py-4">
                   <NavLink
                     activeClassName="active"
-                    to="/about"
+                    to="/About"
                     onClick={() => window.scrollTo(0, 0)}
                   >
                     About
