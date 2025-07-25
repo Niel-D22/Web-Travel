@@ -3,7 +3,7 @@ const Hero = () => {
   const [PriceValue, setPriceValue] = React.useState(40);
 
   return (
-    <div className="bg-black/20 min-h-screen  ">
+    <div className="bg-black/20 2xl:h-[800px] min-h-screen  ">
       <div
         className="h-full flex justify-center items-center min-h-screen
         p-4  bg-[#0287a8]/10"

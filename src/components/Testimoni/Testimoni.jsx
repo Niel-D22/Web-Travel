@@ -80,9 +80,9 @@ var settings ={
 }
 
   return (
-    <div className="py-10">
+    <div className="py-10 min-h-screen  pt-25">
       <div
-        className="w-full mx-auto px-4 sm:px-8 xl:px-20 2xl:px-24
+        className="w-full mx-auto px-4 sm:px-8 xl:px-20 2xl:px-24 grid grid-cols-1 gap-0
          sm:py-0 lg:py-0"
       >
         {/* bagian  header */}
@@ -97,7 +97,7 @@ var settings ={
           </p>
         </div>
         {/* bagian testi */}
-        <Slider {...settings}>
+        <Slider className=" mb-2" {...settings}>
             {
                 TestimonialData.map(({id,name,text,img})=>{
              return (
