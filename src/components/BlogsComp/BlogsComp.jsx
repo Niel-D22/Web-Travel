@@ -39,7 +39,7 @@ const BlogsComp = () => {
   return (
     <div className=''>
         <div data-aos="fade-up" className='space-y-10 w-full mx-auto px-4 sm:px-8 xl:px-20 2xl:px-24 
-         sm:py-0 lg:py-0 h-[500px] bg-amber-200 '>
+         sm:py-0 lg:py-0 h-[500px]   '>
             <h1 className=' border-l-8 border-[#0287a8]/50 
           pl-2 text-3xl font-bold'
             >Our Latest Blog</h1>
